@@ -20,7 +20,7 @@ struct Record
     int outTime;
     int inTime;
     int duration;
-    int flag; //no violation=0;violation=1
+    int flag; 
 };
 
 struct Record queue[MAX]; 
